@@ -1,0 +1,17 @@
+.text-input-desktop {
+  background-color: #f3f3f3;
+  border: 0;
+  color: #2d2d2d;
+  flex: 1;
+  flex-grow: 1;
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  margin-top: -1px;
+  padding: 21px 30px;
+  position: relative;
+  width: 530px;
+}

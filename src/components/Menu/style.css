@@ -1,0 +1,45 @@
+.menu {
+  height: 23px;
+  position: relative;
+  width: 25px;
+}
+
+.menu .ellipse {
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  height: 8px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.menu .div {
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  height: 8px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 8px;
+}
+
+.menu .ellipse-2 {
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.menu .ellipse-3 {
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 8px;
+}

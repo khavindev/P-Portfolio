@@ -1,0 +1,6 @@
+.rate-stars {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 5px;
+  position: relative;
+}

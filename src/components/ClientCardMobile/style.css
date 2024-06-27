@@ -1,0 +1,68 @@
+.client-card-mobile {
+  align-items: flex-start;
+  background-color: #fffcf5;
+  border: 1.5px solid;
+  border-color: #ffd285;
+  display: flex;
+  gap: 10px;
+  padding: 30px 50px 30px 30px;
+  position: relative;
+  width: 315px;
+}
+
+.client-card-mobile .client-card {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 80px;
+  margin-right: -28px;
+  position: relative;
+}
+
+.client-card-mobile .text-wrapper-4 {
+  color: var(--black);
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 263px;
+}
+
+.client-card-mobile .client-info {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.client-card-mobile .rate {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.client-card-mobile .rate-stars-instance {
+  flex: 0 0 auto !important;
+}
+
+.client-card-mobile .gemma-nolen-google {
+  color: var(--black);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  width: 193px;
+}

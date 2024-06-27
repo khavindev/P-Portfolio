@@ -1,0 +1,24 @@
+.button {
+  all: unset;
+  align-items: flex-start;
+  background-color: var(--black);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  padding: 25px 82px;
+  position: relative;
+}
+
+.button .text-wrapper-6 {
+  color: var(--white);
+  font-family: "Epilogue", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

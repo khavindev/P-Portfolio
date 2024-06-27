@@ -1,0 +1,125 @@
+.logos-section {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 66px;
+  position: relative;
+}
+
+.logos-section .logos {
+  align-items: center;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #00000033;
+  border-top-style: solid;
+  border-top-width: 2px;
+  padding: 60px 0px;
+  position: relative;
+}
+
+.logos-section .stripe {
+  height: 34px;
+  position: relative;
+  width: 221.97px;
+}
+
+.logos-section .behance {
+  height: 34px;
+  left: 168px;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+.logos-section .google {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+
+.logos-section .stripe-2 {
+  height: 46.83px;
+  position: relative;
+  width: 242.12px;
+}
+
+.logos-section .apple {
+  height: 47px;
+  left: 204px;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.logos-section .dribbble {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 139px;
+}
+
+.logos-section .img {
+  height: 34px;
+  position: relative;
+}
+
+.logos-section .google-2 {
+  height: 34px;
+  position: relative;
+  width: 103.29px;
+}
+
+.logos-section .apple-2 {
+  height: 46.83px;
+  position: relative;
+  width: 38.11px;
+}
+
+.logos-section .dribbble-2 {
+  height: 34px;
+  position: relative;
+  width: 139.01px;
+}
+
+.logos-section .awwwards {
+  height: 34px;
+  position: relative;
+  width: 213.85px;
+}
+
+.logos-section.property-7-desktop {
+  width: 1280px;
+}
+
+.logos-section.property-7-mobile {
+  overflow: hidden;
+  width: 375px;
+}
+
+.logos-section.property-7-desktop .logos {
+  display: flex;
+  justify-content: space-between;
+  width: 1078px;
+}
+
+.logos-section.property-7-mobile .logos {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+}
+
+.logos-section.property-7-desktop .img {
+  width: 53.69px;
+}
+
+.logos-section.property-7-mobile .img {
+  width: 213.85px;
+}

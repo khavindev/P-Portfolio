@@ -1,0 +1,69 @@
+.navigation {
+  background-color: #ffffff;
+  height: 80px;
+  position: relative;
+}
+
+.navigation .nav-nav-menu {
+  height: 28px;
+  left: 969px;
+  position: absolute;
+  top: 26px;
+  width: 267px;
+}
+
+.navigation .text-wrapper-2 {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .work {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 101px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .text-wrapper-3 {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 192px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .logo-instance {
+  left: 50px !important;
+  position: absolute !important;
+  top: 25px !important;
+}
+
+.navigation.desktop {
+  width: 1280px;
+}
+
+.navigation.mobile {
+  width: 374px;
+}

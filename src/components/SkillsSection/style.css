@@ -1,0 +1,83 @@
+.skills-section {
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.skills-section .skills {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 125px;
+  position: relative;
+}
+
+.skills-section .skill-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 56px;
+  position: relative;
+}
+
+.skills-section .skill-instance-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 56px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.skills-section .skill-instance {
+  flex: 0 0 auto !important;
+}
+
+.skills-section .skill-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 54px;
+  position: relative;
+}
+
+.skills-section .skill-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 56px;
+  position: relative;
+}
+
+.skills-section.property-10-desktop {
+  align-items: center;
+  flex-direction: column;
+  padding: 180px 140px;
+}
+
+.skills-section.property-10-mobile {
+  align-items: flex-start;
+  padding: 150px 62px;
+}
+
+.skills-section.property-10-mobile .skills {
+  flex-direction: column;
+}
+
+.skills-section.property-10-desktop .skill-wrapper {
+  transition: all 0.2s ease;
+}
+
+.skills-section.property-10-desktop .skill-2 {
+  transition: all 0.2s ease;
+}
+
+.skills-section.property-10-desktop .skill-3 {
+  transition: all 0.2s ease;
+}

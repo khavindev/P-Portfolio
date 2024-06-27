@@ -1,0 +1,82 @@
+.clients-section {
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.clients-section .client-cards {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.clients-section .text-wrapper-5 {
+  color: var(--black);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.clients-section .clients-cards {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.clients-section .class {
+  flex: 0 0 auto !important;
+}
+
+.clients-section.property-15-desktop {
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 100px 150px;
+}
+
+.clients-section.property-15-mobile {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 30px 90px;
+}
+
+.clients-section.property-15-desktop .client-cards {
+  gap: 55px;
+}
+
+.clients-section.property-15-mobile .client-cards {
+  gap: 40px;
+}
+
+.clients-section.property-15-desktop .text-wrapper-5 {
+  font-family: "Epilogue", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 26.98px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 113px;
+}
+
+.clients-section.property-15-mobile .text-wrapper-5 {
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  text-align: center;
+  width: fit-content;
+}
+
+.clients-section.property-15-desktop .clients-cards {
+  gap: 67.5px;
+}
+
+.clients-section.property-15-mobile .clients-cards {
+  flex-direction: column;
+  gap: 60px;
+}

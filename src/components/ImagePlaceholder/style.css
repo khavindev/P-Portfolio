@@ -1,0 +1,18 @@
+.image-placeholder {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 130px;
+  width: 130px;
+}
+
+.image-placeholder.image-placeholder-3 {
+  background-image: url(../../../static/img/property-image-placeholder-3.png);
+}
+
+.image-placeholder.image-placeholder-1 {
+  background-image: url(../../../static/img/property-image-placeholder-1.png);
+}
+
+.image-placeholder.image-placeholder-2 {
+  background-image: url(../../../static/img/property-image-placeholder-2.png);
+}

@@ -1,0 +1,43 @@
+.skill {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 56px;
+  position: relative;
+}
+
+.skill .headline-subhead-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 19px;
+  position: relative;
+}
+
+.skill .main-title {
+  color: var(--black);
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 249.9px;
+}
+
+.skill .p {
+  color: var(--black);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  text-align: center;
+  width: 249.9px;
+}
